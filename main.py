@@ -43,7 +43,7 @@ def lambda_handler(event, context):
     finally:
         driver.close()
 
-    return title
+    return
 
 
 def input_login(driver):
